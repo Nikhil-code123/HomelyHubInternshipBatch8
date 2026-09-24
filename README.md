@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HomelyHub - Full Stack Vacation Rental Platform
 
 HomelyHub is a full-stack MERN (MongoDB, Express, React, Node.js) web application for property rental listings and bookings.
@@ -93,3 +94,6 @@ npm run dev
 - Client will run on: **`http://localhost:5173`**
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to use HomelyHub!
+=======
+# HomelyHubInternshipBatch8
+>>>>>>> c49ea529a143d33d54623d5fea0b2148d99a6626
