@@ -20,10 +20,16 @@ app.use(express.json({limit:"100mb"}))
 //urlencoded
 app.use(express.urlencoded({limit:"100mb", extended:true}))
 
-//cookieParser
-app.use(cookieParser())
+//cors
+app.use(cors({
+    origin: process.env.ORIGIN_ACCESS_URL || "http://localhost:5173",
+    credentials: true
+}));
 
-const port = process.env.PORT;
+//cookieParser
+app.use(cookieParser());
+
+const port = process.env.PORT || 8080;
 
 
 //test route
